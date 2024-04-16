@@ -6,7 +6,7 @@ on:
       - opened
 
 jobs:
-  looks_good_to_me_for_owner:
+  looks_good_to_me:
     permissions: write-all
     runs-on: ubuntu-latest
     steps:
