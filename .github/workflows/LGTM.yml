@@ -13,6 +13,6 @@ jobs:
       - name: LGTM Comment
         uses: wow-actions/auto-comment@v1
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
           pullRequestOpenedReactions: "hooray, +1"
           pullRequestOpenedComment: LGTM
